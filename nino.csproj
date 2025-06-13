@@ -15,6 +15,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\cli-bot.csproj" />
+    <ProjectReference Include="..\..\Quill\dotnet\Quill.csproj" />
+
   </ItemGroup>
 
   <ItemGroup>
@@ -2984,12 +2986,7 @@
     <Content Include="Nino Nakano Screenshots\Season 2\S2 E9\GT8HN-KXUAABV6i.jpg" />
     <Content Include="Nino Nakano Screenshots\Season 2\S2 E9\GT8HVL9W4AA9i3u.jpg" />
   </ItemGroup>
-  
-  <ItemGroup>
-    <Reference Include="Quill">
-      <HintPath>..\..\Quill.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+ 
   
   <ItemGroup>
     <None Update="login.txt">

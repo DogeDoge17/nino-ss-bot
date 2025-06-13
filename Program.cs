@@ -38,7 +38,7 @@ internal class Program
         DriverCreation.SetBrowserType(BrowserType.Firefox);
         DriverCreation.options.headless = true;
         TwitterBot nino = new(TimeSpan.FromMinutes(60)) { DisplayName = "Nino Nakano" };
-        nino.runAction += Run;
+        nino.RunAction += Run;
         nino.Start();
     }
 
